@@ -1,0 +1,11 @@
+{
+  "exec": "ts-node --require dotenv/config --require tsconfig-paths/register src/app.ts",
+  "ext": "js,ts",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "verbose": false,
+  "watch": [
+    "src/**/*"
+  ]
+}

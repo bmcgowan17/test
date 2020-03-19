@@ -1,0 +1,68 @@
+{
+  "name": "xmpl-express-base",
+  "version": "0.1.0",
+  "description": "A template for creating Node + Express web services.",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "coverage": "nyc --nycrc-path .nycrc.json npm run test",
+    "dev": "nodemon --config .nodemonrc.json",
+    "lint": "eslint --config .eslintrc.json 'src/**/*.ts'",
+    "start": "",
+    "test": "mocha --config .mocharc.json 'src/**/*.spec.ts'"
+  },
+  "homepage": "https://github.com/bmcgowan17/xmpl-express-base#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmcgowan17/xmpl-express-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmcgowan17/xmpl-express-base/issues"
+  },
+  "author": "Brian McGowan <brian.mcgowan+github@oreskos.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "uuid": "^7.0.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.9",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/hapi__joi": "^16.0.12",
+    "@types/helmet": "0.0.45",
+    "@types/lodash": "^4.14.149",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.6",
+    "@types/sinon": "^7.5.2",
+    "@types/supertest": "^2.0.8",
+    "@types/uuid": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^7.0.1",
+    "nodemon": "^2.0.2",
+    "nyc": "^15.0.0",
+    "sinon": "^9.0.0",
+    "source-map-support": "^0.5.16",
+    "supertest": "^4.0.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

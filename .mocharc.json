@@ -1,0 +1,9 @@
+{
+  "exit": true,
+  "require": [
+    "dotenv/config",
+    "source-map-support/register",
+    "ts-node/register",
+    "tsconfig-paths/register"
+  ]
+}
